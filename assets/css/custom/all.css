@@ -1,0 +1,19 @@
+#main > * {
+  padding: 4rem 4rem 4rem 4rem;
+}
+
+/* This is for insurance */
+.row.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .row.d-flex {
+    flex-direction: column;
+  }
+
+  .row.d-flex > [class*="col-"] {
+    width: 100%;
+  }
+}

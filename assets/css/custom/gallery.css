@@ -18,3 +18,13 @@
   width: 300px; /* adjust to your image size */
   flex-shrink: 0;
 }
+
+.lists-row {
+  display: flex;
+  flex-wrap: wrap; /* allow wrap on small screens */
+  gap: 20px; /* space between columns */
+}
+.lists-row > div {
+  flex: 1 1 30%; /* roughly one-third width */
+  min-width: 250px; /* prevent columns from shrinking too much */
+}
