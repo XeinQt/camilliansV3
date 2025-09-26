@@ -1,0 +1,20 @@
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.carousel-window {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  white-space: nowrap;
+}
+
+.carousel-track img {
+  width: 300px; /* adjust to your image size */
+  flex-shrink: 0;
+}
