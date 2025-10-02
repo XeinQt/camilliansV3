@@ -135,3 +135,8 @@
     height: 250px;
   }
 }
+
+/* HOVERS */
+a:hover {
+  color: #04225c !important;
+}
