@@ -17,3 +17,23 @@
     width: 100%;
   }
 }
+
+.image-logo {
+  width: 400px;
+}
+
+.logo {
+  background-color: white;
+}
+
+/* intro design and make the background color to gradient */
+
+#intro {
+  background: radial-gradient(circle at center, #b12318, #04225c);
+}
+
+/* main background color cahgen  */
+#wrapper > .bg {
+  background-image: none;
+  background: radial-gradient(circle at center, #b12318, #04225c);
+}
