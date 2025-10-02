@@ -24,16 +24,26 @@
 
 .logo {
   background-color: white;
+  border-radius: 10px;
 }
 
 /* intro design and make the background color to gradient */
 
 #intro {
-  background: radial-gradient(circle at center, #b12318, #04225c);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://i.pinimg.com/1200x/8c/6a/84/8c6a8477651aba1ace84c25bea19e45e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* main background color cahgen  */
 #wrapper > .bg {
-  background-image: none;
-  background: radial-gradient(circle at center, #b12318, #04225c);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://i.pinimg.com/1200x/8c/6a/84/8c6a8477651aba1ace84c25bea19e45e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
